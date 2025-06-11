@@ -7,8 +7,12 @@ body {
 header {
   background-color: #002933;
   color: white;
-  text-align: center;     
-  padding: 20px 0;        
+  text-align: center;      
+  padding: 20px 0;         
+}
+
+header h1 {
+  margin: 0;
 }
 
 .container {
