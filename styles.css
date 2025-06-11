@@ -7,8 +7,8 @@ body {
 header {
   background-color: #002933;
   color: white;
-  padding: 20px 0;
   text-align: center;
+  padding: 20px 0;
 }
 
 .container {
@@ -18,25 +18,27 @@ header {
   gap: 20px;
 }
 
-section {
+.latest-news-section,
+.main-article-section,
+.pictorial-news-section {
   background-color: white;
   padding: 20px;
+  width: 30%;
   border-radius: 15px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.left-box, .center-box, .right-box {
-  flex: 1;
-}
-
-.left-box ul {
+.latest-news-section ul {
   list-style-type: disc;
   padding-left: 20px;
 }
 
-.right-box img {
+.pictorial-news-section img {
   width: 100%;
   height: auto;
   margin-bottom: 10px;
   border-radius: 5px;
+}
+
+.pictorial-news-section {
+  text-align: center;
 }
