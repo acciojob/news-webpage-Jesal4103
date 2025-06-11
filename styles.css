@@ -1,27 +1,27 @@
 /* Styling the header */
 header {
-  background-color: #002933;
+  background-color: darkblue;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px;
   color: white;
 }
 
 /* Styling the latest news section */
 .latest-news-section {
-  background-color: #f0f0f0;
+  background-color: white;
   padding: 20px;
   width: 90%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 /* Styling the pictorial news section */
 .pictorial-news-section {
-  background-color: #e0f7fa;
+  background-color: white;
   padding: 20px;
   width: 90%;
   text-align: center;
   border-radius: 10px;
-  margin: 20px auto;
+  margin: auto;
 }
 
 .pictorial-news-section img {
